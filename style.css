@@ -56,12 +56,6 @@ h2 {
 	font-weight: 500;
 }
 
-#navbarOptions a:hover {
-	background-color: #ffffff1a;
-	text-decoration: none;
-	color: #FFFFFF;
-}
-
 #navbar a:hover {
 	background-color: #ffffff1a;
 	text-decoration: none;
@@ -199,6 +193,22 @@ th {
 /*Lists*/
 #lists{
 	list-style-position: inside;
+}
+
+@media screen and (min-width: 1200px) {
+    #maincontent {
+        margin-left: 100px;
+        margin-right: 100px;
+    }
+    
+    #kort {
+        grid-template-columns: repeat(4, 1fr);
+    }
+    
+    #navbar {
+        margin: 30px;
+        padding: 25px;
+	}
 }
 
 @media print{
