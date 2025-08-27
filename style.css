@@ -88,9 +88,11 @@ a:active {
 	padding: 10px;
 	display: inline-block;
 }
+#kortcontainer {
+	display: grid;
+	grid-template-columns: repeat(3,1fr);
+}
 #kort{
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
     gap: 30px;
     margin-bottom: 40px;
 	background: transparent;
