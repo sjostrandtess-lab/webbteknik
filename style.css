@@ -147,12 +147,16 @@ img {
 #bilder{
 	display: grid;
 	grid-template-columns: 10fr 10fr;	
-	place-items: center;
 }
 
 #main-image{
 	display: grid;
 	grid-row: 1 /3;
+}
+
+#side-image{
+	display: grid;
+	place-items: center;
 }
 /*Footer*/
 #footer{
