@@ -150,7 +150,7 @@ img {
 	place-items: center;
 }
 
-#bildStor{
+#main-image{
 	display: grid;
 	grid-row: 1 /3;
 }
