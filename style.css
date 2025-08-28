@@ -100,6 +100,10 @@ a:active {
     text-align: center;
 }
 
+#side-images{
+	width: 100%;
+}
+
 #tidigarevalparbilder{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -124,7 +128,6 @@ a:active {
 	padding: 20px;
     border-radius: 8px;
 }
-
 
 #Kontaktformulär{
 	flex: auto;
