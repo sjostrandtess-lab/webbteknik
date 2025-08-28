@@ -94,6 +94,7 @@ a:active {
 }
 #kort{
     gap: 30px;
+	padding: 10px;
     margin-bottom: 40px;
 	background: transparent;
     text-align: center;
