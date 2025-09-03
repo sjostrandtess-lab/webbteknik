@@ -100,10 +100,6 @@ a:active {
     text-align: center;
 }
 
-#side-images{
-	width: 100%;
-}
-
 #tidigarevalparbilder{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
