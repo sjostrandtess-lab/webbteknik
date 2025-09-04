@@ -93,7 +93,6 @@ a:active {
 	margin-left: 55px;
 	margin-right: 55px;
 	padding: 10px;
-	display: inline-block;
 }
 #kortcontainer {
 	display: grid;
@@ -136,6 +135,15 @@ a:active {
 	flex: auto;
 	padding: 20px;
     border-radius: 8px;
+}
+
+.question {
+    cursor: pointer;
+}
+
+.answer {
+    display: none;
+	font-style: italic;
 }
 
 /*Info section*/
