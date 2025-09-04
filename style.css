@@ -79,6 +79,13 @@ a:active {
 }
 
 /*Main content*/
+#welcome-text {
+    color: #3D3636;
+    text-align: center;
+    font-size: 2.5em;
+    font-weight: bold;
+}
+
 #maincontent{
 	background-color: #F3E3C4;
 	border-radius: 8px;
